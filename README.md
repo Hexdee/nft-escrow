@@ -1,4 +1,6 @@
-# Basic Sample Hardhat Project
+# NFT Escrow
+
+A smart contract that allows a seller sell an NFT directly to a buyer
 
 ### Compile
 
@@ -8,14 +10,16 @@ npx hardhat compile
 
 ### Set up deployment
 
-Create a `secret.json` file with the following content:
+- Create an account on [MATIC RPC](https://rpc.maticvigil.com/), create a new proect and copy your app id
+- Create an account on [polygonscan](https://polygonscan.com/register) and create a new apikey
+- Create a `secret.json` file with the following content:
 
 ```
 {
-    "APP_ID": "Your [Matic RPC](https://rpc.maticvigil.com/) appId",
+    "APP_ID": "Your appId",
     "PRIVATE_KEY1": "Your mumbai testnet account private key",
     "PRIVATE_KEY2": "Another mumbai testnet account private key",
-    "POLYGONSCAN_API_KEY": "Your [polygonscan](https://polygonscan.com/register) api key"
+    "POLYGONSCAN_API_KEY": "Your api key"
 }
 ```
 
